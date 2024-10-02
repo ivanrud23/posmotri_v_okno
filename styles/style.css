@@ -143,6 +143,7 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
+  
   gap: 15px;
   display: inline-block;
   width: 19px;
@@ -153,10 +154,11 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  display: flex;
   content: "";
   width: 15px;
   height: 15px;
-  position: absolute;
+  align-self: center;
   background-color: #fff;
   background-position: center;
 }

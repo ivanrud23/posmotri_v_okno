@@ -128,8 +128,8 @@ ol {
 
 input:focus {
   outline: none;
- }
- 
+}
+
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 1px;
@@ -258,7 +258,7 @@ input:focus {
 }
 
 .content__video-card-title {
-  /* white-space: nowrap; */
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   font-family: Oswald, sans-serif;
